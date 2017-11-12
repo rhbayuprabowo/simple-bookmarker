@@ -1,18 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Hello, world!</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Hello, world!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+  <div class="jumbotron bg-info">
+    <h1 class="display-4 text-center text-white">Bookmarker Sederhana</h1>
+    <p class="lead text-center text-white">Bookmark situs favoritmu disini.</p>
+  </div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <div class="container">
 
-    <!-- Optional JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+
+        <!--Form Isian-->
+        <form id="myForm">
+          <div class="form-group">
+            <label>Nama Situs</label>
+            <input class="form-control" type="text" id="namaSitus" placeholder="Masukkan Nama Website">
+          </div>
+          <div class="form-group">
+            <label>Link Situs</label>
+            <input class="form-control" type="text" id="linkSitus" placeholder="Masukkan Link Website">
+          </div>
+          <button type="submit" class="btn btn-primary">Simpan</button>
+        </form>
+
+
+        <!--Hasil-->
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="hasilBookmarks"></div>
+          </div>
+        </div>
+
+
+      <!--Footer-->
+      <footer class="blockquote-footer">
+        <p>&copy; 2017 Bookmarker Sederhana, Reza Hidayat Bayu Prabowo</p>
+      </footer>
+
+
+  </div>
+
+
+
+
+
+
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script scr="js/main.js"></script>
+</body>
 </html>
