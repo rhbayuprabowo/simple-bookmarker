@@ -1,2 +1,2 @@
 # simple-bookmarker
-Proyek belajar javascript; aplikasi web untuk bookmark website sederhana
+Proyek untuk belajar javascript; aplikasi web untuk bookmark website sederhana
