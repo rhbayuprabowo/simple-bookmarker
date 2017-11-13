@@ -1,4 +1,13 @@
-.container footer{
+.container footer {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.narrow {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.result {
+  padding-top: 3rem;
 }
